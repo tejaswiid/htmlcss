@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+.banner {
+  background: url("./big.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1)),
+    url(./big.webp) center/cover fixed no-repeat;
+}
+.banner {
+  border: 5px solid red;
+  padding: 10px;
+}
+img {
+  float: left;
+}
